@@ -4,7 +4,7 @@
   "description": "\u001b[A\u001b[BMovie API with graphQL\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[G",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/sts2003/movieql/issues"
   },
-  "homepage": "https://github.com/sts2003/movieql#readme"
+  "homepage": "https://github.com/sts2003/movieql#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
 }
